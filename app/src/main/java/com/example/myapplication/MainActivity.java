@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String nameApp = "Hola que pasa";
         TextView mTextView = findViewById(R.id.TextView);
-
-        mTextView.setText(nameApp);
-
+int num1=5;
+int num2=6;
+        //mTextView.setText(nameApp);
+        mTextView.setText("La suma es: " + (num1+num2) );
     }
 }
